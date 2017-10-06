@@ -41,9 +41,9 @@ class BEA_WELCOME_PANEL {
 	}
 
 	public static function beapi_welcome_panel() {
-		$title            = apply_filters( 'beapi_title_welcome_panel', __( 'Bienvenu sur votre tableau de bord", "bea-welcome-panel' ) );
-		$subtitle         = apply_filters( 'beapi_subtitle_welcome_panel', __( 'Conçu et réalisé par Be API, votre agence WordPress !', "bea-welcome-panel" ) );
-		$title_column_one = apply_filters( 'beapi_title_column_one_welcome_panel', __( 'Guides d\'utilisation', "bea-welcome-panel" ) );
+		$title            = apply_filters( 'beapi_title_welcome_panel', __( 'Bienvenu sur votre tableau de bord', 'bea-welcome-panel' ) );
+		$subtitle         = apply_filters( 'beapi_subtitle_welcome_panel', __( 'Conçu et réalisé par Be API, votre agence WordPress !', 'bea-welcome-panel' ) );
+		$title_column_one = apply_filters( 'beapi_title_column_one_welcome_panel', __( 'Guides d\'utilisation', 'bea-welcome-panel' ) );
 		$links_column_one = apply_filters( 'beapi_links_column_one_welcome_panel', array(
 			array(
 				'link'   => 'https://recette.beapi.fr/knowledge-base/utiliser-projecthuddle/',
