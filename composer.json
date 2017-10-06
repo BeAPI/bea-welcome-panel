@@ -1,0 +1,16 @@
+{
+  "name": "bea/bea-welcome-panel",
+  "description": "CWelcome panel dashboard beapi",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "BeAPI",
+      "email": "technique@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-muplugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}
