@@ -47,7 +47,7 @@ class BEA_WELCOME_PANEL {
 
 		echo '
 		<div class="welcome-panel-content">
-			<h2>' . __( "Welcome to your dashboard", "bea-welcome-panel" ) . '</h2>
+			<h2>' . __( "Bienvenu sur votre tableau de bord", "bea-welcome-panel" ) . '</h2>
 			<p class="about-description">' . __( "Conçu et réalisé par Be API, votre agence WordPress !", "bea-welcome-panel" ) . '</p>
 			<div class="welcome-panel-column-container">
 				<div class="welcome-panel-column">
@@ -62,7 +62,7 @@ class BEA_WELCOME_PANEL {
 				<div class="welcome-panel-column">
 					<h3>Support</h3>
 					<ul>
-						<li><a href="https://beapi.eu.teamwork.com" target="_blank" class="welcome-icon dashicons-admin-tools">' . __( "Outil de tickets projet Be API", "bea-welcome-panel" ) . '</a></li>
+						<li><a href="https://beapi.eu.teamwork.com" target="_blank" class="welcome-icon dashicons-admin-tools">' . __( "Outil de tickets Projet Be API", "bea-welcome-panel" ) . '</a></li>
 						<li><a href="https://redmine.beapi.fr" target="_blank" class="welcome-icon dashicons-admin-tools">' . __( "Outil de tickets TMA Be API", "bea-welcome-panel" ) . '</a></li>
 						<li><a href="mailto:projets@beapi.fr" target="_blank" class="welcome-icon dashicons-admin-users">' . __( "Support : projets@beapi.fr", "bea-welcome-panel" ) . '</a></li>
 					</ul>
